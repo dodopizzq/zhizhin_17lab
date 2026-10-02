@@ -1,0 +1,164 @@
+body{
+    box-sizing: border-box;
+}
+.header{
+    padding: 30px 0;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 3%;
+}
+
+.containerNav {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 3%;
+}
+    
+.nav{
+    font-family: "Lato";
+    color: #060c31;
+    font-weight: 700;
+    color: #060c31;
+    font-size: 13px;
+}
+
+.navLeft{
+    font-size: 34px;
+    line-height: 64px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Crete Round";
+    float: left;
+}
+
+.navRight{
+    text-align: right;
+    float: right;
+}
+.navRight div{
+  display: inline-block; 
+  vertical-align: middle; 
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navBtn{
+    border: 2px solid #ffb0b1;
+    border-radius: 23px;
+}
+
+
+.mainBlock{
+    padding-top: 100px;
+}
+.mainLeft{
+    float: left;
+    width: 48%;
+}
+.mainText{
+margin-top: 50px;
+margin-bottom: 30px;
+font-size: 58px;
+letter-spacing: 3px;
+line-height: 64px;
+color: #060c31;
+font-weight: 400;
+font-family: "Crete Round";
+width: 450px;
+}
+
+.smallText{
+font-size: 15px;
+letter-spacing: 1px;
+line-height: 28px;
+color: #060c31;
+font-weight: 400;
+font-family: "Lato";
+width: 420px;
+margin-bottom: 50px;
+}
+
+button{
+    width: 152px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+}
+.left{
+font-size: 15px;
+letter-spacing: 1px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+background-color: #233fe2;
+}
+
+.right{
+    font-size: 15px;
+letter-spacing: 1px;
+line-height: 28px;
+color: #060c31;
+font-weight: 400;
+font-family: "Lato";
+border: 1px solid #ffb0b1;
+background-color: #fff;
+}
+
+.image{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+.partners {
+padding: 60px 0 40px 0;
+text-align: right;
+margin-top: 500px;
+}
+.containerBot {
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+padding: 0 20px;
+margin-top: 3%;
+}
+.partner-logos {
+    text-align: right;
+}
+
+.partner-item {
+display: inline-block;
+vertical-align: middle;
+margin: 0 25px;
+opacity: 0.6;
+font-weight: bold;
+font-size: 18px;
+color: #888;
+}
+
+.anims
+{
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.anims.show
+{
+    opacity: 1;
+    transform: translateY(0);
+}
